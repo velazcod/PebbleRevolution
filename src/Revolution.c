@@ -458,7 +458,7 @@ int main(void) {
 
 void init() {
 #ifdef USE_QUICKTAP_PLUS
-  qtp_conf = QTP_K_SHOW_TIME | QTP_K_SHOW_WEATHER | QTP_K_AUTOHIDE | QTP_K_DEGREES_F | QTP_K_INVERT;
+  qtp_conf = QTP_K_SHOW_TIME | QTP_K_SHOW_WEATHER | QTP_K_AUTOHIDE | QTP_K_INVERT | QTP_K_DEGREES_F;
   qtp_setup();
 #endif
   window = window_create();
