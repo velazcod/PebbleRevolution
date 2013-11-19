@@ -11,7 +11,7 @@
 
 // Settings
 #define USE_QUICKTAP_PLUS             true
-#define USE_AMERICAN_DATE_FORMAT      false
+#define USE_AMERICAN_DATE_FORMAT      true
 #define VIBE_ON_HOUR                  false
 #define TIME_SLOT_ANIMATION_DURATION  500
 
